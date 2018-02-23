@@ -14,7 +14,9 @@ client.on("message", message => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase()=== "") {
-    msg.reply("");
+  if (msg.content.toLowerCase()=== "What's Cj?") {
+    msg.reply("A **MOTHER FUCKING BUSTA**.");
   }
 });
+
+client.login(process.env.BOT_TOKEN);
